@@ -1,21 +1,18 @@
 import PropTypes from 'prop-types'; 
-import React, { Component } from 'react';
+import React from 'react';
 import css from './Statistics.module.css';
 
-class Statistics extends Component {
-       
-    render() {
+function Statistics(props) {
         return (<section className={css.statistics}>
             <div className={css.statistics__list}>
-                <p className={css.statistics__item}>Good: {this.props.good} </p>
-                <p className={css.statistics__item}>Neutral: {this.props.neutral}</p>
-                <p className={css.statistics__item}>Bad: {this.props.bad}</p>
-                <p className={css.statistics__item}>Total: {this.props.total}</p>
-                <p className={css.statistics__item}>PositivePercentage: {this.props.positivePercentage}%</p>
+                <p className={css.statistics__item}>Good: {props.good} </p>
+                <p className={css.statistics__item}>Neutral: {props.neutral}</p>
+                <p className={css.statistics__item}>Bad: {props.bad}</p>
+                <p className={css.statistics__item}>Total: {props.total}</p>
+                <p className={css.statistics__item}>PositivePercentage: {props.positivePercentage}%</p>
             </div>
         </section>)
     }
-}
 
 export default Statistics;
 
