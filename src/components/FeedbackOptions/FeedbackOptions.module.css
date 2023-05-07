@@ -1,0 +1,16 @@
+.feedback {
+    margin-left: 20px;
+}
+.feedback__button-list {
+    display: flex;
+    gap: 20px;
+}
+.feedback__btn {
+    padding: 5px 15px;
+    border-radius: 10%;
+    border: 2px solid grey;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}

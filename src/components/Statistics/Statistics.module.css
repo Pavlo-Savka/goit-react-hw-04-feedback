@@ -1,0 +1,8 @@
+.statistics {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.statistics__item {
+font-size: 20px;
+font-weight: 400;
+}
